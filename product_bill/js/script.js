@@ -1,0 +1,40 @@
+let a = '35000';
+let b = '20000';
+let c = '15000';
+let d = '25000';
+let discount = '20';
+
+let total = 35000 + 20000 + 15000 + 25000;
+
+let discount_ = (total * 20)/100;
+let discount_total = total - discount_;
+
+document.querySelector('.bill-type').innerHTML = 'Invoice Electrical Shop';
+document.querySelector('.product').innerHTML = 'Product Name';
+document.querySelector('.qty').innerHTML = 'Quantity';
+document.querySelector('.guaranty').innerHTML = 'Guaranty';
+document.querySelector('.amount').innerHTML = 'Amount';
+document.querySelector('.product-1').innerHTML = 'Express Air Cooler';
+document.querySelector('.product-2').innerHTML = 'Express  Refrigerator';
+document.querySelector('.product-3').innerHTML = 'Express Conditioner';
+document.querySelector('.product-4').innerHTML = 'Express Freezer';
+document.querySelector('.qty-1').innerHTML = '2';
+document.querySelector('.qty-2').innerHTML = '1';
+document.querySelector('.qty-3').innerHTML = '4';
+document.querySelector('.qty-4').innerHTML = '2';
+document.querySelector('.guaranty-1').innerHTML = '3 Year';
+document.querySelector('.guaranty-2').innerHTML = '5 Year';
+document.querySelector('.guaranty-3').innerHTML = '7 Year';
+document.querySelector('.guaranty-4').innerHTML = '8 Year';
+document.querySelector('.amount-1').innerHTML = a;
+document.querySelector('.amount-2').innerHTML = b;
+document.querySelector('.amount-3').innerHTML = c;
+document.querySelector('.amount-4').innerHTML = d;
+document.querySelector('.total-item').innerHTML = 'Total-Items :' ; 
+document.querySelector('.total').innerHTML = '4' ; 
+document.querySelector('.total-amount').innerHTML = 'Total-Amount : ';
+document.querySelector('.amount-total').innerHTML = total;
+document.querySelector('.discount-rate').innerHTML = 'Discount is : ';
+document.querySelector('.discount').innerHTML = '20%';
+document.querySelector('.final-total').innerHTML = 'Payable-Ammount : ';
+document.querySelector('.payment').innerHTML = discount_total;
